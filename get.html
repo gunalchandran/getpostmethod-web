@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Get method</title>
+<style>
+     *body
+    {
+       margin: 0;
+       padding: 0;
+       box-shadow: inset;
+    }
+    .container {
+            margin-top: 10;
+            width: 250px;
+            background-color: whitesmoke;
+            padding: 30px;
+            border-radius: 10px;
+            color: black;
+            font-weight: 200;
+            box-shadow: 0 0 30px rgb(2, 0, 7);
+            font-weight: bold;
+        }
+        body{
+            padding-bottom: 200px;
+            padding-left: 450px;
+            padding-top: 300px;
+            background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsb2ZmaWNlMjBfYmFja2dyb3VuZF9pbGx1c3RyYXRpb25fb2ZfYV9mYWxsX3Bhc3RlbF9iYWNrZ19hMGM1YzU4MC1kODBhLTQ0ZjEtYjhjNy1jNWI4Y2E0NzMxNTRfMS5qcGc.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            scroll-behavior: smooth;
+        }
+        .container:hover
+        {
+            
+            background-color: rgb(100, 80, 220);
+        }
+</style>
+</head>
+<body>
+<div class="container">
+<form action="http://localhost:7000/login" method="get">
+Name : <input type="text" name="username" value=""/><br/><br>
+Email : <input type="text" name="email" value=""/><br/><br>
+pass : <input type="password" name="pass" value=""/><br/><br>
+<center><input type="submit" name="login" value="Login"/></center>
+</form>
+</div>
+</body>
+</html>

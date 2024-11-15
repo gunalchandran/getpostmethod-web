@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>post method</title>
+<style>
+    *body
+    {
+       margin: 0;
+       padding: 0;
+       box-shadow: inset;
+    }
+    .container {
+            margin-top: 10;
+            width: 250px;
+            background-color: whitesmoke;
+            padding: 30px;
+            border-radius: 10px;
+            color: black;
+            font-weight: 200;
+            box-shadow: 0 0 30px rgb(2, 0, 7);
+            font-weight: bold;
+        }
+        body{
+            padding-bottom: 200px;
+            padding-left: 450px;
+            padding-top: 300px;
+            background-image: url('https://media.istockphoto.com/id/2115043598/photo/ai-concept-and-cpu-on-mother-board-productivity-of-ai-evolution-futuristic-ai-brain-icon-in.jpg?s=612x612&w=0&k=20&c=beBWEXQi8i5xBir3eJq_3AKqs03QC-fk7bRK7XD3kMA=');
+            background-repeat: no-repeat;
+            background-size: cover;
+            scroll-behavior: smooth;
+           
+        }
+        .container:hover
+        {
+            
+            background-color: rgb(100, 80, 220);
+        }
+</style>
+</head>
+<body>
+<div class="container">
+<form action="http://localhost:8000/login" method="post">
+Name : <input type="text" name="username" value=""/><br/><br>
+Email : <input type="text" name="email" value=""/><br/><br>
+Password : <input type="password" name="pass" value=""/><br/><br>
+<center><input type="submit" style="color: black; background-color: aqua;border-color: green; border-top-left-radius: 0%;"  value="Login"/></center>
+</form>
+</div>
+</body>
+</html>
